@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SkillSwap",
+    "slug": "skillswap",
+    "scheme": "skillswap",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.tonorg.skillswap",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.tonorg.skillswap"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-build-properties",
+      [
+        "expo-secure-store",
+        {
+          "requireStrongBox": false
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "78474289-5f64-43ab-8c6e-2807f9ceb285"
+      }
+    },
+    "owner": "zyco"
+  }
+}

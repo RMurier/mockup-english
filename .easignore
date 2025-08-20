@@ -1,0 +1,26 @@
+# Réduire au minimum ce qui est uploadé
+.git
+node_modules
+android
+ios
+dist
+build
+*.log
+.expo
+.expo-shared
+
+# Assure l'inclusion des fichiers requis
+!app.json
+!app.config.*
+!eas.json
+!package.json
+!package-lock.json
+!yarn.lock
+!babel.config.js
+!tsconfig.json
+!metro.config.js
+!index.js
+!App.js
+!App.tsx
+!src/**
+!assets/**
