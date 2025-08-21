@@ -18,8 +18,15 @@
       "bundleIdentifier": "com.tonorg.skillswap"
     },
     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.2.0"
+          }
+        }
+      ],
       "expo-router",
-      "expo-build-properties",
       [
         "expo-secure-store",
         {

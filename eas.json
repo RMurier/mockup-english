@@ -1,13 +1,11 @@
 {
-  "cli": { "version": ">= 3.0.0" },
+  "cli": { "version": ">= 3.17.1" },
   "build": {
-    "preview": {
-      "credentialsSource": "remote",
+    "apk": {
       "android": { "buildType": "apk" }
     },
     "production": {
-      "credentialsSource": "remote",
-      "android": { "buildType": "app-bundle" }
+      "android": { "gradleCommand": ":app:bundleRelease" }
     }
   }
 }
