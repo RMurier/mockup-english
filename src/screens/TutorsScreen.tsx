@@ -39,7 +39,7 @@ export default function TutorsScreen({ route, navigation }: Props) {
         style={[styles.banner, { backgroundColor: skill?.color ?? "#eee" }]}
       >
         <Text style={styles.bannerText}>
-          Mentors pour “{skillName}” (échange de compétences)
+          Mentors for “{skillName}” (skills exchange)
         </Text>
       </View>
 
@@ -56,7 +56,7 @@ export default function TutorsScreen({ route, navigation }: Props) {
         )}
         ListEmptyComponent={
           <Text style={styles.empty}>
-            Personne ne propose encore ce skill (données fictives).
+            No one offers this skill yet.
           </Text>
         }
         contentContainerStyle={{ paddingVertical: 10 }}

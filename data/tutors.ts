@@ -14,7 +14,7 @@ export const tutors: Tutor[] = [
   {
     id: 1,
     name: "Alice Martin",
-    bio: "Patiente et pédagogue",
+    bio: "Patient and pedagogical",
     rating: 4.9,
     nbRates: 15,
     offers: [1, 4],       // enseigne Guitare, Coding
@@ -23,7 +23,7 @@ export const tutors: Tutor[] = [
   {
     id: 2,
     name: "Ben Dupont",
-    bio: "Approche pratique & fun",
+    bio: "Practical & fun approach",
     rating: 4.6,
     nbRates: 19,
     offers: [2],          // enseigne English
@@ -32,7 +32,7 @@ export const tutors: Tutor[] = [
   {
     id: 3,
     name: "Chloé Durand",
-    bio: "Méthode structurée",
+    bio: "Structured method",
     rating: 5.0,
     nbRates: 3,
     offers: [1, 2],       // enseigne Guitare, English
@@ -41,7 +41,7 @@ export const tutors: Tutor[] = [
   {
     id: 4,
     name: "Diego Rossi",
-    bio: "Apprentissages par projets",
+    bio: "Project-based learning",
     rating: 4.3,
     nbRates: 12,
     offers: [3, 5],       // enseigne Cooking, Painting
@@ -50,7 +50,7 @@ export const tutors: Tutor[] = [
   {
     id: 5,
     name: "Emma Leroy",
-    bio: "Débuts rapides garantis",
+    bio: "Quick starts guaranteed",
     rating: 4.8,
     nbRates: 89,
     offers: [4, 6],       // enseigne Coding, Yoga
@@ -59,7 +59,7 @@ export const tutors: Tutor[] = [
   {
     id: 6,
     name: "Félix Moreau",
-    bio: "Adapté à ton rythme",
+    bio: "Adapted to your pace",
     rating: 4.5,
     nbRates: 2,
     offers: [2, 3],       // enseigne English, Cooking

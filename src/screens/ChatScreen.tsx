@@ -43,9 +43,9 @@ export default function ChatScreen({ route, navigation }: Props) {
 
   // conversation fictive au démarrage
   const [messages, setMessages] = useState<Msg[]>(() => [
-    { id: "m1", author: "tutor", text: `Salut, je peux t'aider pour ${tutor?.offers?.length ? "tes objectifs" : "ce skill"}. Tu veux échanger ?`, at: Date.now() - 1000 * 60 * 60 },
-    { id: "m2", author: "me", text: "Oui ! Je peux t'apprendre la cuisine en échange 😊", at: Date.now() - 1000 * 60 * 58 },
-    { id: "m3", author: "tutor", text: "Parfait. Dispo en visio ce soir ?", at: Date.now() - 1000 * 60 * 57 },
+    { id: "m1", author: "tutor", text: `Hello, can I help you with ${tutor?.offers?.length? "your goals": "this skill"}. Do you want to exchange?`, at: Date.now() - 1000 * 60 * 60 },
+    { id: "m2", author: "me", text: "Yes! I can teach you cooking in exchange 😊", at: Date.now() - 1000 * 60 * 58 },
+    { id: "m3", author: "tutor", text: "Perfect. Available for a video call tonight?", at: Date.now() - 1000 * 60 * 57 },
   ]);
   const [input, setInput] = useState("");
   const listRef = useRef<FlatList<Msg>>(null);
@@ -67,7 +67,7 @@ export default function ChatScreen({ route, navigation }: Props) {
       const reply: Msg = {
         id: String(Math.random()),
         author: "tutor",
-        text: "Top ! Je t'envoie une proposition d'échange.",
+        text: "Top! I'm sending you an exchange proposal.",
         at: Date.now(),
       };
       setMessages((prev) => [reply, ...prev]);

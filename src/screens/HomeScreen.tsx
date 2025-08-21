@@ -35,7 +35,7 @@ export default function HomeScreen({ navigation }: Props) {
         <View style={styles.searchBox}>
           <Ionicons name="search" size={16} style={styles.searchIcon} />
           <TextInput
-            placeholder="Rechercher un skill..."
+            placeholder="Search a skill..."
             value={query}
             onChangeText={setQuery}
             style={styles.input}
